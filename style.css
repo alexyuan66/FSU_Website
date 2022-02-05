@@ -1,0 +1,701 @@
+/*Student Name: Alexander Yuan*/
+body {
+    background-color:#F4F4F4;
+}
+header {
+    background-color:white;
+}
+.header-div {
+    width:100%;
+    background: linear-gradient(to bottom, #782F40 0%, #782F40 40%, white 40%, white 100%);
+}
+.header-icons {
+    list-style-type: none;
+    position:relative;
+    top:-15px;
+}
+.header-icons-float {
+    float:right;
+    padding-right: 5%;
+}
+.header-icons-padding {
+    padding:5px;
+}
+.fas {
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 7px;
+}
+.fa-envelope {
+    color: white;
+    background-color: #782F40;
+}
+.fa-search:hover {
+    color: #782f40;
+    background-color: white;
+}
+.fa-search {
+    color: white;
+    background-color: #782F40;
+}
+.fa-bars {
+    color: white;
+    background-color: #782F40;
+}
+.fa-bars:hover {
+    color: #782f40;
+    background-color: white;
+}
+.fa-envelope:hover {
+    color: #782f40;
+    background-color: white;
+}
+#header-icons-list li {
+    display:inline;
+    font-size: 15px;
+    color: white;
+}
+.fsu-title {
+    line-height: 0px;
+    font-size: 22px;
+    background: linear-gradient(to bottom, #782F40 0%, #782F40 40%, white 40%, white 100%);
+}
+#title-link {
+    text-decoration: none;
+    color: black;
+    margin-bottom: -100px;
+}
+.title-font{
+    font-family: "Adobe Garamond Pro",adobe-garamond-pro,"Times New Roman",times,serif;
+    font-weight:300;
+    font-size: 37px;
+    text-shadow:0.8px 0.8px #BEBEBE;
+    text-align: center;
+}
+.clear-background{
+    background-image: none;
+    display: block;
+    margin-left: 48%;
+    margin-right: auto;
+}
+.header-links-list {
+    list-style-type: none;
+    border-top: 1px solid #EEEEEE;
+    margin: 0;
+    padding: 0px;
+    text-align: center;
+}
+.header-links {
+    display: inline;
+}
+#header-hover {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 12px 12px;
+    text-decoration: none;
+}
+#header-hover:hover {
+    background-color: black;
+    color: white;
+}
+.header-font{
+    font-family: acumin-pro, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+#emergency-triangle {
+    font-size:26px;
+    vertical-align: middle;
+}
+.fsu-COVID {
+    background-color:#782F40;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 4px 16px;
+    margin: 5px;
+    border: 0.5px solid #1e0c10;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: acumin-pro-condensed, Arial, sans-serif;
+    font-size: 13.5px;
+    transform: scaleY(1.25);
+}
+#COVID-hover:hover {
+    background-color:white;
+    border: 1px solid black;
+    color: #782F40;
+}
+#fsu-yellow {
+    background-color: #CEB888;
+    border: 1px solid grey;
+    text-align:center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+.carousel-pic{
+    width:50%;
+    height:auto;
+    float:left;
+}
+.carousel-float {
+    max-width: 100%;
+    max-height: 100%;
+}
+.carousel-div {
+    background-color: #f3ede1;
+    width:90%;
+    margin:auto;
+}
+.carousel-text {
+    width:50%;
+    height:auto;
+    float:left;
+}
+#carousel-hover:hover {
+    background-color:#2C2A29;
+    color: #dacaa6;
+}
+.carousel-button {
+    font-family: acumin-pro-condensed, Arial, sans-serif;
+    background-color:#dacaa6;
+    border: 1px solid #CEB888;
+    border-radius: 5px;
+    color: #2C2A29;
+    font-weight: 800;
+    font-size: 12.5px;
+    text-decoration: none;
+    padding: 5px;
+    letter-spacing:-0.5px;
+}
+.carousel-text-2 {
+    padding-left: 7%;
+}
+.carousel-h1-font {
+    font-family: acumin-pro-condensed, Arial, sans-serif;
+    font-size: 26px;
+    font-weight: 800;
+    transform: scaley(1.35);
+    letter-spacing: -0.5px;
+    color: #2C2A29;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+#carousel-big-link {
+    text-decoration: none;
+}
+.carousel-p-font {
+    font-family: acumin-pro, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding-right: 7%;
+    color: #2C2A29;
+    margin-bottom: 25px;
+    line-height: 28px;
+    letter-spacing: 0px;
+}
+
+#news-div {
+    width:90%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.news-left {
+    float: left;
+    width: 15%;
+}
+.news-float {
+    max-width: 100%;
+    max-height: 100%;
+}
+.new-font {
+    font-family: acumin-pro, Arial, sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.10px;
+    line-height: 20px;
+    color:black;
+}
+.news-list {
+    list-style-type: none;
+    padding: 0px;
+    line-height: 25px;
+    color:black;
+}
+.news-list-links {
+    border-bottom: 1px dashed grey;
+}
+#news-hover:hover{
+    border-bottom:2px dashed #733635;
+}
+.news-links {
+    text-decoration: none;
+    color: black;
+    font-family: acumin-pro, Arial, sans-serif;
+    font-weight: 400;
+    padding-right: 15px;
+    font-size: 12.5px;
+    letter-spacing:0.1px;
+}
+.news-left2 {
+    float: left;
+    width: 15%;
+    padding-top: 10px;
+    padding-left: 1%;
+    padding-right: 1%;
+    height: auto;
+}
+.news-highlights {
+    font-weight: 800;
+    color: #782f40;;
+    font-size: 12.9px;
+    font-family: acumin-pro-condensed, Arial, sans-serif;
+    letter-spacing: -0.4px;
+}
+.news-description {
+    margin-top: 6px;
+    font-family: acumin-pro, Arial, sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 12.6px;
+    line-height: 17px;
+    transform: scaleY(1.1);
+}
+#article-hover:hover {
+    background-color: white;
+    color:#2C2A29;
+}
+#article-hover:hover span {
+    color:#2C2A29;
+}
+.preeminence-font {
+    font-family: acumin-pro-condensed, Arial, sans-serif;
+    font-weight: 400;
+    color:black;
+    font-size: 21px;
+    transform:scaleY(1.25);
+}
+.ranking-div {
+    width:100%;
+    margin: auto;
+    background-color: white;
+    border-top: 1px solid #EEEEEE;
+    padding-bottom: 10px;
+}
+.ranking-seal {
+    float: left;
+    width: 15%;
+    padding-left: 0px;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 0px;
+}
+.ranking-img {
+    max-width: 60%;
+    max-height: 60%;
+}
+.clear {
+    clear: both;
+    line-height: 0;
+}
+.ranking-preeminence {
+    float: left;
+    width: 30%;
+    padding-right: 5px;
+    padding-top: 10px;
+}
+.ranking-height {
+    line-height: 28px;
+    font-family: acumin-pro, Arial, sans-serif;
+    font-size: 15.5px;
+}
+.ranking-highlights {
+    padding-left: 3%;
+    float:left;
+    width: 40%;
+    text-align: center;
+    padding-top: 10px;
+}
+.ranking-links {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom:1px dashed #733635;
+}
+#ranking-hover:hover {
+    border-bottom: 2px dashed #733635;
+}
+.ranking-button {
+    color: rgb(44, 42, 41);
+    font-weight: 500;
+    font-family: acumin-pro-condensed, Arial, sans-serif;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid rgb(181, 181, 180);
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 11px;
+    transform: scaleY(1.25);
+}
+#ranking-button-hover:hover {
+    background-color:#D3D3D3;
+}
+.admissions-div {
+    width:100%;
+    margin: auto;
+    background-color: #f3ede1;
+    border-top: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    padding-bottom: 13px;
+}
+.admissions-left {
+    width:28%;
+    float:left;
+    padding-top:10px;
+    padding-left: 5%;
+}
+#admissions-button-float{
+    float:left;
+    display: inline-block;
+    width:50%;
+}
+.admissions-list {
+    list-style-type: none;
+    padding-left:0px;
+    font-family: acumin-pro, Arial, sans-serif;
+    font-weight: 400;
+}
+.admissions-middle {
+    width:31%;
+    float:left;
+    padding-left:1%;
+    padding-right: 1%;
+    padding-top:10px;
+}
+.admissions-right {
+    width:31%;
+    padding-left:2%;
+    float:left;
+    padding-top:10px;
+}
+.calender {
+    float: left;
+    width: 13%;
+    border:1px solid #dacaa6;
+    max-height: 57px;
+    text-align: center;
+    font-family: "Benton Sans", Arial, sans-serif;
+}
+.admissions-link {
+    text-decoration: none;
+    border-bottom:1px dashed grey;
+    color:#2c2a29;
+}
+#admissions-hover:hover {
+    border-bottom: 2px dashed #733635;
+}
+.h3-font {
+    font-family: acumin-pro-condensed, Arial, sans-serif;
+    font-weight: 800;
+    font-size:16px;
+    color:#2c2a29;
+    transform: scaleY(1.2);
+}
+.button-margin {
+    margin-top: -15px;
+}
+.admissions-button {
+    color: white;
+    background-color: #782F40;
+    padding-top: 6px;
+    padding-left: 8px;
+    padding-right: 23%;
+    padding-bottom: 6px;
+    border: 0.5px solid #1e0c10;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 11px;
+    font-family: acumin-pro-condensed, Arial, sans-serif;
+    font-weight:500;
+    letter-spacing: -0.15px;
+}
+#admissions-button-font {
+    transform:scaleY(1.2);
+}
+#admissions-botton-hover:hover {
+    background-color:white;
+    color:#782F40;
+}
+.h4-border {
+    border-top:0.1px solid #eae0cb;
+    padding-top: 10px;
+    margin-top: 7px;
+    margin-bottom: -3px;
+    width: 92%;
+    font-family: acumin-pro-condensed, Arial, sans-serif;
+    font-weight: 800;
+    transform: scaleY(1.2);
+    font-size: 10.5px;
+    color: #2c2a29;
+}
+.admissions-links {
+    border-bottom:1px dashed grey;
+    color: #2c2a29;
+    width: 85%;
+    margin-bottom:5px;
+    padding-bottom:5px;
+}
+.admissions-related-links {
+    text-decoration: none;
+    color:black;
+    font-size: 12.5px;
+}
+.h5-font {
+    font-family: acumin-pro-condensed, Arial, sans-serif;
+    color:#2c2a29;
+    font-weight:400;
+    font-size: 16px;
+    transform: scaleY(1.2);
+    margin-top:18px;
+    margin-bottom:5px;
+}
+.calender-description {
+    float:left;
+    padding-left: 15px;
+    margin-top: 0px;
+    font-family: "Benton Sans", Arial, sans-serif;
+    font-weight:500;
+    font-size: 10px;
+}
+.calender-description-2 {
+    float:left;
+    padding-left: 15px;
+    margin-top: 0px;
+    font-family: "Benton Sans", Arial, sans-serif;
+    font-weight:500;
+}
+#calender-margin {
+    margin-top: -8px;
+}
+.calender-link {
+    border-bottom: 1px dashed #733635;
+    text-decoration: none;
+    color:#733635;
+    font-size: 16px;
+}
+#calender-hover:hover {
+    border-bottom: 2px dashed #733635;
+}
+.calender-link-2 {
+    border-bottom: 1px dashed #733635;
+    text-decoration: none;
+    font-family: acumin-pro, Arial, sans-serif;
+    color:#2c2a29;
+    font-size: 10.5px;
+    font-weight: 800;
+}
+.calender-font-transform {
+    transform:scaleY(1.2);
+}
+.initiative-div {
+    width:100%;
+    margin: auto;
+    background-color: white;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #EEEEEE;
+}
+.initiative-left {
+    width:28%;
+    float:left;
+    padding-top:15px;
+    padding-left: 5%;
+}
+.initiative-middle {
+    width:31%;
+    float:left;
+    padding-left:1%;
+    padding-right: 1%;
+    padding-top:15px;
+}
+.initiative-right {
+    width:31%;
+    padding-left:2%;
+    float:left;
+    padding-top:15px;
+}
+.initiative-subtitle {
+    font-family: acumin-pro-condensed, Arial, sans-serif;
+    font-weight: 400;
+    transform:scaleY(1.3);
+    font-size: 22px;
+    color: #2c2a29;
+}
+.initiative-description {
+    font-family: acumin-pro, Arial, sans-serif;
+    font-size: 16px;
+    color: #2c2a29;
+    line-height:28px;
+    letter-spacing: -0.25px;
+}
+.initiative-link {
+    font-weight:bold;
+    text-decoration: none;
+    border-bottom: 1px dashed #733635;
+    color: black;
+}
+#initiative-link-hover:hover {
+    border-bottom: 2px dashed #733635;
+}
+.links-div {
+    width:100%;
+    margin: auto;
+    padding-bottom: 13px;
+    border-bottom: 1px solid #EEEEEE;
+}
+.links-left{
+    width:13%;
+    float:left;
+    padding-top:10px;
+    padding-left: 5%;
+}
+.links-left-2 {
+    width:13%;
+    float:left;
+    padding-top:10px;
+    padding-left: 2.5%;
+}
+.links-list {
+    list-style-type: none;
+    padding-left:0px;
+    margin-top: -5px;
+}
+.links-titles {
+    font-weight: 800;
+    font-family: acumin-pro-condensed, Arial, sans-serif;
+    font-size: 10.75px;
+    color: #2c2a29;
+    transform:scaleY(1.2);
+}
+.links-link {
+    border-bottom: 1px dashed grey;
+    font-size: 14px;
+}
+#links-link-hover:hover {
+    border-bottom: 2px dashed #733635;
+}
+.links-design {
+    color:#2c2a29;
+    text-decoration:none;
+    line-height: 25px;
+    font-family: acumin-pro, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 12.5px
+}
+.links-initiative {
+    margin-top:-10px;
+    margin-bottom: -5px; 
+    list-style-type: none;
+    padding-left:0px;
+}
+.public-record-div {
+    width:100%;
+    margin: auto;
+    padding-bottom: 13px;
+    border-bottom: 1px solid #EEEEEE;
+}
+.public-record-left {
+    width:auto;
+    float:left;
+    padding-top:10px;
+    padding-left: 5%;
+}
+.public-record-font {
+    font-size: 12.5px;
+    line-height:20px;
+    font-family: acumin-pro, Arial, sans-serif;
+    color:#2c2a29;
+}
+.public-record-link {
+    text-decoration: none;
+    color:#2c2a29;
+    font-weight:700;
+    border-bottom: 1px dashed #733635;
+    font-size:12px;
+}
+#public-record-link-hover:hover {
+    border-bottom: 2px dashed #733635;
+}
+.footer-div {
+    width:100%;
+    margin: auto;
+    padding-bottom: 13px;
+    background-color: #782F40;
+}
+.footer-left {
+    width:auto;
+    float:left;
+    padding-top:10px;
+    padding-left: 5%;
+}
+.footer-font {
+    color: white;
+    font-family: acumin-pro, Arial, sans-serif;
+    font-size: 12.75px;
+    line-height: 23px;
+    font-weight: 400;
+}
+.footer-float {
+    float: left;
+    padding-top: 10px;
+    padding-left: 12%;
+}
+.footer-list {
+    list-style-type: none;
+    padding-left:0px;
+}
+.footer-links {
+    font-family: acumin-pro, Arial, sans-serif;
+    font-weight: 700;
+    color:white;
+    text-decoration: none;
+    border-bottom: 1px dashed #CEB888;
+    font-size: 12.5px;
+    line-height: 23px;
+}
+#footer-hover:hover {
+    border-bottom: 2px dashed #CEB888;
+}
+.footer-socials-float {
+    padding-top:10px;
+    float: left;
+    padding-left:16%;
+    padding-right:5%;
+}
+#footer-socials-list li {
+    display:inline;
+    font-size: 25px;
+}
+.footer-horizontal-padding {
+    margin-right: 10px;
+}
+.socials-prehover {
+    color:white;
+}
+#fb-hover:hover{
+    color:#1877f2;
+}
+#yt-hover:hover {
+    color: red;
+}
+#insta-hover:hover {
+    color:orange;
+}
+#twitter-hover:hover {
+   color: #5da9dd;
+}
+#linkedln-hover:hover{
+    color: #0076b4;
+}
