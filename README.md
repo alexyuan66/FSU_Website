@@ -1,4 +1,4 @@
-# FSU_Website
+# Replica_of_FSU_Front_Page
 This is replica of the Florida State University Website that I developed from scratch with HTML and CSS.
 
 Features:
